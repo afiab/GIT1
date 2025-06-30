@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Afia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
+    <div class="container">
         <header>
             <h1>Hi, I'm Afia!</h1>
             <p>Welcome to my little corner of the internet.</p>
         </header>
 
-        <div>
-            <img src="https://github.com/afiab/GWC-WebDev-Course-1-Project/blob/main/assets/coding.jpg?raw=true">
+        <div class="profile-img-wrapper">
+            <img class="profile-img" id="myImage" src="https://github.com/afiab/GWC-WebDev-Course-1-Project/blob/main/assets/coding.jpg?raw=true">
             </div>
 
-        <section>
+        <section class="section">
             <h2>About Me</h2>
             <p>I'm a Software Engineering student participating in the 2025 KWK Data Storytelling Challenge</p>
         </section>
 
-        <section>
+        <section class="section">
             <h2>My Passions & Interests</h2>
             <ul>
                 <li>
@@ -34,20 +38,20 @@
             </ul>
         </section>
 
-        <section>
+        <section class="section">
             <h2>My KWK & Coding Journey</h2>
             <p>I spent the last 2 summers participating in the KWK WebDev and Data Science camps! I didn't want my KWK journey to end there, so I was excited to participate in this year's KWK Data Challenge for alumni!</p>
-            <p>I am also a Software Engineering major with a Business Administration minor,</p>
+            <p>I am also a Software Engineering major with a Business Administration minor.</p>
         </section>
 
-        <section>
+        <section class="section">
             <h2>Fun Facts About Me!</h2>
-            <div>
-                <div>I was awake for 76 hours once! (Don't recommend)</div>
-                <div>I went to work in a clown costume</div>
-                <div>I have one of the 5 rarest birthdays</div>
+            <div class="fun-facts">
+                <div class="fact-card" id="fact1">I was awake for 76 hours once! (Don't recommend)</div>
+                <div class="fact-card" id="fact2">I went to work in a clown costume</div>
+                <div class="fact-card" id="fact3">I have one of the 5 rarest birthdays</div>
             </div>
-            <p><button>Shuffle Fun Facts</button></p>
+            <p style="text-align: center; margin-top: 20px;"><button>Shuffle Fun Facts</button></p>
         </section>
 
     </div>
