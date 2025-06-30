@@ -1,1 +1,1 @@
-# hi im not rly learning to use git because I alr know it lol.
+# hi i use git a lot alr
